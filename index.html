@@ -1,550 +1,648 @@
 <!DOCTYPE html>
-<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if lt IE 9]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="no-js oldie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html class="no-js" lang="en">
 <!--<![endif]-->
 
 <head>
-
-    <!-- Global site tag (gtag.js) - Google Analytics
+  <!-- Global site tag (gtag.js) - Google Analytics
     ================================================== -->
-    <script async src="http://www.googletagmanager.com/gtag/js?id=UA-121644538-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'UA-121644538-1');
-    </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121644538-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-121644538-1');
+</script>
 
 
-    <!--- basic page needs
+  <!--- basic page needs
     ================================================== -->
-    <meta charset="utf-8">
-    <title>Gift M. Banda | giftmbanda@gmail.com</title>
-    <meta name="description" content="personal website resume">
-    <meta name="author" content="Gift Banda">
+  <meta charset="utf-8" />
+  <title>Gift Banda | Portfolio</title>
+  <meta name="description" content="personal website resume" />
+  <meta name="author" content="Gift Banda Portfolio" />
 
-    <!-- mobile specific metas
+  <!-- mobile specific metas
     ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- CSS
+  <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/vendor.css" />
+  <link rel="stylesheet" href="css/main.css" />
 
-    <!-- script
+  <!-- script
     ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
+  <script src="js/modernizr.js"></script>
+  <script src="js/pace.min.js"></script>
 
-    <!-- favicons
-    ================================================== -->
-    <!-- no favicons yet, until I learn adobe illustrator -->
 </head>
 
 <body id="top">
-
-    <!-- header
+  <!-- header
     ================================================== -->
-    <header class="s-header">
+  <header class="s-header">
+    <nav class="header-nav-wrap">
+      <ul class="header-nav">
+        <li class="current"><a class="smoothscroll" href="#home" title="home">Home</a></li>
+        <li><a class="smoothscroll" href="#about" title="about">About</a></li>
+        <li><a class="smoothscroll" href="#resume" title="resume">Resume</a></li>
+        <li><a class="smoothscroll" href="#portfolio" title="portfolio">portfolio</a></li>
+        <li><a class="smoothscroll" href="#contact" title="contact">Contact</a></li>
+      </ul>
+    </nav>
 
-        <nav class="header-nav-wrap">
-            <ul class="header-nav">
-                <li class="current"><a class="smoothscroll" href="#home" title="home">Home</a></li>
-                <li><a class="smoothscroll" href="#about" title="about">About</a></li>
-                <li><a class="smoothscroll" href="#resume" title="resume">Resume</a></li>
-                <li><a class="smoothscroll" href="#works" title="resume">portfolio</a></li>
-                <li><a class="smoothscroll" href="#contact" title="contact">Contact</a></li>
-            </ul>
-        </nav>
+    <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+  </header>
+  <!-- end s-header -->
 
-        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
-
-    </header> <!-- end s-header -->
-
-
-    <!-- home
+  <!-- home
    ================================================== -->
-    <section id="home" class="s-home page-hero target-section" data-parallax="scroll"
-        data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+  <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg"
+    data-natural-width="3000" data-natural-height="2000" data-position-y="center">
+    <div class="overlay"></div>
+    <div class="shadow-overlay"></div>
 
-        <div class="overlay"></div>
-        <div class="shadow-overlay"></div>
+    <div class="home-content">
+      <div class="row home-content__main">
+        <h3>Hello there</h3>
+        <h1>
+          I'm Gift Banda. <br />
+          I'm a Software Developer and a tech-enthusiast.
+        </h1>
 
-        <div class="home-content">
+        <div class="home-content__buttons">
+          <a href="#portfolio" class="smoothscroll btn btn--stroke">
+            Portfolio
+          </a>
+        </div>
 
-            <div class="row home-content__main">
+        <div class="home-content__scroll">
+          <a href="#about" class="scroll-link smoothscroll">
+            <span>Scroll Down</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- end home-content -->
 
-                <h3>Hello There :)</h3>
+    <ul class="home-social">
+      <li>
+        <a href="https://www.linkedin.com/in/giftmbanda/" target="_blank"><i class="im im-linkedin"
+            aria-hidden="true"></i><span>Linkedin</span></a>
+      </li>
+      <li>
+        <a href="https://api.whatsapp.com/send?phone=27729433017&text=Hello%20Gift." target="_blank"><i
+            class="im im-whatsapp" aria-hidden="true"></i><span>Whatsapp</span></a>
+      </li>
+      <li><a href="https://www.github.com/giftmbanda/" target="_blank"><i class="im im-github"
+            aria-hidden="true"></i><span>Github</span></a></li>
+    </ul>
+    <!-- end home-social -->
+  </section>
+  <!-- end s-home -->
 
-                <h1>
-                    I'm Gift Banda. <br>
-                    I'm a Software Developer and a tech-enthusiast.
-                </h1>
-
-                <div class="home-content__buttons">
-                    <a href="#about" class="smoothscroll btn btn--stroke">
-                        More About Me
-                    </a>
-                </div>
-
-                <div class="home-content__scroll">
-                    <a href="#about" class="scroll-link smoothscroll">
-                        <span>Scroll Down</span>
-                    </a>
-                </div>
-
-            </div>
-
-        </div> <!-- end home-content -->
-
-        <ul class="home-social">
-            <li><a href="https://www.facebook.com/giftmbanda/" target="_blank"><i class="im im-facebook"
-                        aria-hidden="true"></i><span>Facebook</span></a></li>
-            <li><a href="https://www.instagram.com/giftmbanda/" target="_blank"><i class="im im-instagram "
-                        aria-hidden="true"></i><span>Instagram</span></a></li>
-            <li><a href="https://www.linkedin.com/in/giftmbanda/" target="_blank"><i class="im im-linkedin"
-                        aria-hidden="true"></i><span>Linkedin</span></a></li>
-            <li><a href="https://api.whatsapp.com/send?phone=27729433017&text=Hello%20Gift." target="_blank"><i
-                        class="im im-whatsapp" aria-hidden="true"></i><span>Whatsapp</span></a></li>
-            <!-- <li><a href="https://www.github.com/giftmbanda" target="_blank"><i class="im im-github"
-                        aria-hidden="true"></i><span>Github</span></a></li> -->
-        </ul>
-        <!-- end home-social -->
-
-    </section> <!-- end s-home -->
-
-    <!-- about
+  <!-- about
     ================================================== -->
-    <section id="about" class="s-about target-section">
-        <div class="col-full text-center">
-            <h1>About</h1>
-        </div>
-
-        <div class="row about-content">
-
-            <div class="col-seven tab-full left">
-                <h3>Gift Banda</h3>
-                <p><img width="300" height="300" class="pull-left" alt="Gift Banda" src="images/profile-img.jpg">
-                    Gift Banda grew up in Kempton Park, East Rand side of Gauteng, made his first website in 2014. He
-                    thought it was alot
-                    back then and the coolest thing so he decided to make a career out of programming and enrolled for
-                    I.T (Software
-                    Development) at Tshwane University of Technology. Outside of his studies he has strong obsession
-                    with sci-fiction
-                    movies, documentaries, he's a lover of music and a tech-enthusiast. He has been known to spend whole
-                    weekends playing
-                    computer games with his friends.
-                </p>
-
-                <p>One sentence: He love programming, designing and building all sorts of things with codes, but that's
-                    a bit reductive.
-                    He's a back-end developer primarily working with M.E.A.N stack, JavaScript, Ionic, Spring boot,
-                    Java, PHP, Laravel and
-                    many more. Ooohkay! enough talking about myself in a third-person, I'm sure you want to know what
-                    more is there, well I
-                    build beautiful personal websites, online resumes/cvs, online portfolios for graphic designers,
-                    photographers and even
-                    students to curate search result that highlight their skills, knowledge and showcase their work to
-                    their potential
-                    employers or clients. Whether it is within a team or doing solo work, I'm very easy to work with,
-                    fast to adapt, a rapid
-                    learner and early adopter.
-                </p>
-
-            </div>
-
-            <div class="col-five tab-full right">
-                <h3>I've Got Some skills.</h3>
-                <p>My main focus is to enhance my skills, gain extensive knowledge and experience that will enable me to
-                    quickly pick-up
-                    any new skills or programming language and to become a key role player in the field of Software
-                    Development and its related businesses. I speak these languages.</p>
-                <ul class="skill-bars">
-                    <li>
-                        <div class="progress percent80"><span>80%</span></div>
-                        <strong>HTML5</strong>
-                    </li>
-                    <li>
-                        <div class="progress percent60"><span>60%</span></div>
-                        <strong>CSS3</strong>
-                    </li>
-                    <li>
-                        <div class="progress percent75"><span>75%</span></div>
-                        <strong>JavaScript</strong>
-                    </li>
-                    <li>
-                        <div class="progress percent50"><span>50%</span></div>
-                        <strong>Laravel</strong>
-                    </li>
-                    <li>
-                        <div class="progress percent75"><span>75%</span></div>
-                        <strong>NodeJs</strong>
-                    </li>
-                    <li>
-                        <div class="progress percent65"><span>65%</span></div>
-                        <strong>C++</strong>
-                    </li>
-                    <li>
-                        <div class="progress percent70"><span>70%</span></div>
-                        <strong>Angular</strong>
-                    </li>
-                    <li>
-                        <div class="progress percent75"><span>75%</span></div>
-                        <strong>MySql</strong>
-                    </li>
-                </ul>
-
-            </div>
-
-        </div> <!-- end about-content -->
-    </section> <!-- end about -->
-
-    <section id="resume" class="s-about target-section">
-        <div class="row about-content about-content--timeline">
-
-            <div class="col-full text-center">
-                <h1>Resume</h1>
-            </div>
-
-            <div class="col-six tab-full left">
-                <div class="timeline">
-
-                    <div class="timeline__block">
-                        <h3>SUMMARY</h3>
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <h3>Gift Banda</h3>
-                        </div>
-                        <div class="timeline__desc">
-                            <p>Innovative and deadline-driven Developer, experienced in developing mobile/web apps from
-                                initial concept to deployement.
-                            </p>
-                            <ul>
-                                <li>Johanessburg</li>
-                                <li>(+27)72 943 3017</li>
-                                <li>giftmbanda@gmail.com</li>
-                            </ul>
-                            <a class="btn btn--stroke full-width" href="mailto:giftmbanda@gmail.com"
-                                target="_blank">Request Resume</a>
-                        </div>
-                    </div> <!-- end timeline__block -->
-
-                    <div class="timeline__block">
-                        <h3>EDUCATION</h3>
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <h3>National Diploma: I.T (Software Development)</h3>
-                            <h5>Tshwane University Of Technology, Pretoria</h5>
-                            <p class="timeline__timeframe">2017 - 2019</p>
-                        </div>
-                        <div class="timeline__desc">
-                            <p>Pending graduation for National Diploma in I.T (Software Development),
-                                major fields of study are Software
-                                Development, Mobile Development, Business Analysis and Modeling, and Software Testing.
-                            </p>
-                        </div>
-                    </div> <!-- end timeline__block -->
-
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <h3>National Senior Certificate</h3>
-                            <h5>Global Secondary School, Johannesburg</h5>
-                            <p class="timeline__timeframe">2010 - 2014</p>
-                        </div>
-                        <div class="timeline__desc">
-                            <p>I followed the science stream (Maths, Physics, Life Science and Geography), this is where
-                                my love affair for science and technology grew.</p>
-                        </div>
-                    </div> <!-- end timeline__block -->
-
-                </div> <!-- end timeline -->
-            </div> <!-- end left -->
-
-            <div class="col-six tab-full right">
-                <div class="timeline">
-
-                    <div class="timeline__block">
-                        <h3>EXPERIENCE</h3>
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <h3>Software Developer (Intern)</h3>
-                            <h5>The Digital Academy, Johannesburg</h5>
-                            <p class="timeline__timeframe">2019 - Present</p>
-                        </div>
-                        <div class="timeline__desc">
-                            <ul>           
-                                <li>Successfully designed, developed, and deployed a Single Page Application utilizing MEAN stack and docker.</li>
-                                <li>Developing custom RESTful APIs / back-end in Node.Js (with Express and NestJs frameworks).</li>
-                                <li>Designing and developing a relational database in MySQL and NoSQL database with MongoDB.</li>
-                                <li>Designing UI and developing web pages using Angular 8, with Angular Material Design and MDBootstrap Angular.</li>
-                                <li>Intergarating 3rd party APIs and libraries to the application.</li>
-                            </ul>
-                        </div>
-                    </div> <!-- end timeline__block -->
-
-                    <div class="timeline__block">
-                        <div class="timeline__bullet"></div>
-                        <div class="timeline__header">
-                            <h3>Student Support Coordinator / Tutor</h3>
-                            <h5>Tshwane University Of Technology, Pretoria</h5>
-                            <p class="timeline__timeframe">2019 - 2019</p>
-                        </div>
-                        <div class="timeline__desc">
-                            <ul>
-                                <li>Coordinate with various department in the Faculty of ICT in order to identify
-                                    academically underperforming students.</li>
-                                <li>Interview and monitor underperforming students.</li>
-                                <li>Tutor students.</li>
-                                <li>Prepare and submit progress reports on a regular basis to the HODs and Deans.</li>
-                                <li>Make necessary arrangements for the students to receive academic support from the
-                                    Student Development & Support Division
-                                    and monitor attendance of such interventions.</li>
-
-                            </ul>
-                        </div>
-                    </div> <!-- end timeline__block -->
-
-                </div> <!-- end timeline -->
-            </div> <!-- end right -->
-
-        </div> <!-- end about-content timeline -->
-
-    </section> <!-- end about -->
-
-    <!-- works
-    ================================================== -->
-    <section id="works" class="s-works target-section">
-
-        <div class="col-full text-center">
-            <h1>Projects</h1>
-        </div>
-
-        <div class="row narrow section-intro has-bottom-sep">
-            <div class="col-full">
-                <p class="lead"></p>
-            </div>
-        </div>
-
-        <div class="row masonry-wrap">
-            <div class="masonry">
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-beetle.png" class="thumb-link" title="Fast-Food WhatsappOrder" data-size="1366x768">
-                                <img src="images/portfolio/beetle.png" srcset="images/portfolio/beetle.png 1x" alt="">
-                                <span class="shadow-overlay"></span>
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Fast-Food WhatsappOrder
-                            </h3>
-                            <p class="item-folio__cat">
-                                Web Development
-                            </p>
-                        </div>
-
-                        <a href="https://www.facebook.com/giftmbanda/" class="item-folio__project-link" >
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <div class="item-folio__caption">
-                            <p>A light-weight HTML5, CSS3 and vanilla Javascript food ordering website, it allowes customers to place food orders and it forward the order via Whatsapp to the Whatsapp linked to the site, ideal for small fast-food businesses. This is a project that I've recently been working on and it is inspired by a pre-existing site that I saw online that has similar functionality. The site is available here <a href="http://whatsorder.herokuapp.com/" target="_blank">Fast-food WhatsappOrder</a> and you can play around with it anytime.</p>
-                        </div>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-            </div>
-        </div> <!-- end masonry -->
-
-    </section> <!-- end works -->
-    <!-- s-stats
-    ================================================== -->
-    <section id="contact" class="s-contact target-section">
-
-        <div class="overlay"></div>
-        <div class="shadow-overlay"></div>
-
-        <div class="row narrow section-intro">
-            <div class="col-full">
-                <h1>Contact</h1>
-                <p class="lead">I'm currently available for freelance work.
-                    If you have a project that you want to get started, think you need my help
-                    with something or just fancy saying hey, then get in touch.</p>
-            </div>
-        </div>
-
-        <div class="row contact__main">
-            <div class="col-eight tab-full contact__form">
-                <form name="contactForm" id="contactForm" method="post" action="">
-                    <fieldset>
-
-                        <div class="form-field">
-                            <input name="contactName" type="text" id="contactName" placeholder="Name*" value=""
-                                minlength="2" required="" aria-required="true" class="full-width">
-                        </div>
-                        <div class="form-field">
-                            <input name="contactEmail" type="email" id="contactEmail" placeholder="Email*" value=""
-                                required="" aria-required="true" class="full-width">
-                        </div>
-                        <div class="form-field">
-                            <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value=""
-                                class="full-width">
-                        </div>
-                        <div class="form-field">
-                            <textarea name="contactMessage" id="contactMessage" placeholder="Message*" rows="10"
-                                cols="5" required="" aria-required="true" class="full-width"></textarea>
-                        </div>
-                        <div class="form-field">
-                            <button class="full-width btn--primary">send message</button>
-                            <div class="submit-loader">
-                                <div class="text-loader">Sending...</div>
-                                <div class="s-loader">
-                                    <div class="bounce1"></div>
-                                    <div class="bounce2"></div>
-                                    <div class="bounce3"></div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </fieldset>
-                </form>
-
-                <!-- contact-warning -->
-                <div class="message-warning">
-                    Something went wrong. Please try again.
-                </div>
-
-                <!-- contact-success -->
-                <div class="message-success">
-                    Your message was sent, thank you!<br>
-                </div>
-
-            </div>
-            <div class="col-four tab-full contact__infos">
-                <h4 class="h06">Contact</h4>
-                <ul>
-                    <li>Phone: (+27) 72 943 3017</li>
-                    <li>Email: giftmbanda@gmail.com</li>
-                    <li>Location: Johanessburg</li>
-                </ul>
-                <h4 class="h06">glimpes of giftmbanda.com</h4>
-                <p>
-                    I'm a bit of a code junky. Over the year, I've demoed and trialed a number of websites and mobile
-                    apps in different
-                    industries and verticals. Eventualy, I decided that it would be a fun challenge to try designing and
-                    building my own
-                    online resume and this is how this giftmbanda.com was born. 03/06/2018
-                </p>
-
-
-            </div>
-
-        </div>
-
-    </section> <!-- end s-contact -->
-
-    <!-- footer
-    ================================================== -->
-    <footer>
-        <div class="row">
-            <div class="col-full">
-                <ul class="footer-social">
-                    <li><a href="https://www.facebook.com/giftmbanda/" target="_blank">
-                            <i class="im im-facebook" aria-hidden="true"></i><span>Facebook</span></a></li>
-                    <li><a href="https://www.instagram.com/giftmbanda/" target="_blank">
-                            <i class="im im-instagram" aria-hidden="true"></i><span>Instagram</span></a></li>
-                    <li><a href="https://www.linkedin.com/in/giftmbanda/" target="_blank">
-                            <i class="im im-linkedin" aria-hidden="true"></i><span>Linkedin</span></a></li>
-                    <li><a href="https://api.whatsapp.com/send?phone=27729433017&text=Hello%20Gift." target="_blank">
-                            <i class="im im-whatsapp" aria-hidden="true"></i><span>Whatsapp</span></a></li>
-                    <!-- <li><a href="https://www.github.com/giftmbanda" target="_blank">
-                            <i class="im im-github" aria-hidden="true"></i><span>Github</span></a></li> -->
-                </ul>
-            </div>
-            <span>connect with me</span>
-        </div>
-
-        <div class="row footer-bottom">
-
-            <div class="col-twelve">
-                <div class="copyright">
-                    <span>© Copyright <a href="https://www.giftmbanda.com/"> Gift M. Banda </a> 2020</span>
-                </div>
-
-                <div class="go-top">
-                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up"
-                            aria-hidden="true"></i></a>
-                </div>
-            </div>
-
-        </div> <!-- end footer-bottom -->
-
-    </footer> <!-- end footer -->
-
-
-    <!-- photoswipe background
-    ================================================== -->
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
-
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
-
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close"
-                        title="Close (Esc)"></button> <button class="pswp__button pswp__button--share"
-                        title="Share"></button> <button class="pswp__button pswp__button--fs"
-                        title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom"
-                        title="Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
-                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
-            </div>
-
-        </div>
-
-    </div><!-- end photoSwipe background -->
-
-    <div id="preloader">
-        <div id="loader"></div>
+  <section id="about" class="s-about target-section">
+    <div class="col-full text-center">
+      <h1>About</h1>
     </div>
 
+    <div class="row about-content">
+      <div class="col-seven tab-full left">
+        <h3>Gift Banda</h3>
+        <p><img width="200" height="200" class="pull-left" alt="Gift Banda" src="images/profile-img.jpg">
+          Gift Banda is a young Software Developer, a tech-enthusiast, and a Software Development 
+          graduate from the Tshwane University Of Technology. However, he prefers to define himself based on what he 
+          can do rather than the qualification he might hold. He's open to opportunities and is always up for a 
+          challenge where his technical, creative, and problem-solving skills can be utilized to solve real business 
+          and social challenges, as well as to enhance his knowledge about emerging trends in the field of software 
+          engineering, and to grow professionally and personally as an individual.
+        </p>
 
-    <!-- JavaScript
+        <p>Although he's just at the early stage of his career, his skills are broad. They span from front-end 
+          development, having practical experience with HTML5, CSS3, Angular, JavaScript (ES6), and on the back-end 
+          development side, he has NodeJs, MySQL, MongoDB, PHP with Laravel, Golang, and RESTful APIs to just mention 
+          a few. He is also a little familiar with some basics of Docker on the DevOps side and he's currently 
+          working towards obtaining two AWS certifications this 2021 year (Cloud Practitioner and Developer 
+          Associate). As an aspiring full-stack developer, he embraces continuous learning through online courses 
+          and certifications, he loves challenging himself by building personal projects using emerging tools. 
+          He's a fast learner, able to adapt easily, and able to pick up new skills on the go. When he's not 
+          doing anything related to programming then he's probably enjoying sci-fiction movies, documentaries, 
+          music, reading the Torah, or getting jumped on by his pet dog🐶🐕.</p>
+      </div>
+
+      <div class="col-five tab-full right">
+        <h3>I've Got Some skills.</h3>
+        <ul class="skill-bars">
+          <li>
+            <div class="progress percent60"><span>60%</span></div>
+            <strong>HTML5 & CSS3</strong>
+          </li>
+          <li>
+            <div class="progress percent70"><span>70%</span></div>
+            <strong>Angular</strong>
+          </li>
+          <li>
+            <div class="progress percent75"><span>75%</span></div>
+            <strong>JavaScript</strong>
+          </li>
+          <li>
+            <div class="progress percent50"><span>50%</span></div>
+            <strong>Laravel</strong>
+          </li>
+          <li>
+            <div class="progress percent75"><span>75%</span></div>
+            <strong>NodeJs</strong>
+          </li>
+          <li>
+            <div class="progress percent60"><span>60%</span></div>
+            <strong>C++</strong>
+          </li>
+          <li>
+            <div class="progress percent75"><span>75%</span></div>
+            <strong>MySQL</strong>
+          </li>
+          <li>
+            <div class="progress percent70"><span>70%</span></div>
+            <strong>Database Design</strong>
+          </li>
+          <li>
+            <div class="progress percent50"><span>50%</span></div>
+            <strong>UI / Ux</strong>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- end about-content -->
+  </section>
+  <!-- end about -->
+
+  <section id="resume" class="s-about target-section">
+    <div class="row about-content about-content--timeline">
+      <div class="col-full text-center">
+        <h1>Resume</h1>
+      </div>
+
+      <div class="col-six tab-full left">
+        <div class="timeline">
+
+          <div class="timeline__block">
+            <h3>SUMMARY</h3>
+            <div class="timeline__bullet"></div>
+            <div class="timeline__header">
+              <h3>Gift Banda</h3>
+            </div>
+            <div class="timeline__desc">
+              <p>
+                Innovative and deadline-driven developer, experienced in developing web applications from initial
+                concept, development to deployment.
+              </p>
+              <ul>
+                <li>Johanessburg</li>
+                <li>(+27)72 943 3017</li>
+                <li>giftmbanda@gmail.com</li>
+              </ul>
+              <a class="btn btn--stroke full-width" href="mailto:giftmbanda@gmail.com" target="_blank">Request
+                Resume</a>
+            </div>
+          </div>
+          <!-- end timeline__block -->
+
+          <div class="timeline__block">
+            <h3>EDUCATION</h3>
+            <div class="timeline__bullet"></div>
+            <div class="timeline__header">
+              <h3>National Diploma: I.T (Software Development)</h3>
+              <h5>Tshwane University Of Technology, Pretoria</h5>
+              <p class="timeline__timeframe">2017 - 2019</p>
+            </div>
+            <div class="timeline__desc">
+              <p>
+                National Diploma in I.T (Software Development), 
+                major fields of study include Software Development, Mobile Development, 
+                Software Testing, Business Analysis, and Modeling.
+              </p>
+            </div>
+          </div>
+          <!-- end timeline__block -->
+
+          <!-- <div class="timeline__block">
+            <div class="timeline__bullet"></div>
+            <div class="timeline__header">
+              <h3>National Senior Certificate</h3>
+              <h5>Global Secondary School, Johannesburg</h5>
+              <p class="timeline__timeframe">2010 - 2014</p>
+            </div>
+            <div class="timeline__desc">
+              <p>
+                I followed the science stream (Maths, Physics, Life Science, and Geography), 
+                this is where my love affair for science and technology grew.
+              </p>
+            </div>
+          </div> -->
+          <!-- end timeline__block -->
+        </div>
+        <!-- end timeline -->
+      </div>
+      <!-- end left -->
+
+      <div class="col-six tab-full right">
+        <div class="timeline">
+          <div class="timeline__block">
+            <h3>EXPERIENCE</h3>
+            <div class="timeline__bullet"></div>
+            <div class="timeline__header">
+              <h3>Software Developer (Intern)</h3>
+              <h5>The Digital Academy, Johannesburg</h5>
+              <p class="timeline__timeframe">2019 Dec - 2020 May</p>
+            </div>
+            <div class="timeline__desc">
+              <ul>
+                <li>
+                  Successfully designed and developed SPA utilizing MEAN stack and Docker.
+                </li>
+                <li>
+                  Developed REST APIs / back-end in Node.Js (with Express and NestJs frameworks).
+                </li>
+                <li>
+                  Designed and developed SQL and NoSQL databases.
+                </li>
+                <li>
+                  Designed UI and developed web pages using Angular 8, with Angular Material Design and MDBootstrap Angular.
+                </li>
+                <li>
+                  Integrated 3rd party APIs and libraries to the application.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- end timeline__block -->
+
+          <div class="timeline__block">
+            <div class="timeline__bullet"></div>
+            <div class="timeline__header">
+              <h3>Student Support Coordinator / Tutor</h3>
+              <h5>Tshwane University Of Technology, Pretoria</h5>
+              <p class="timeline__timeframe">2019 Apr - 2019 Nov</p>
+            </div>
+            <div class="timeline__desc">
+              <ul>
+                <li>
+                  Coordinated with the various department in the Faculty of ICT to identify academically underperforming students.
+                </li>
+                <li>Interviewed and monitored underperforming students.</li>
+                <li>Tutored students (C++, Java, SQL).</li>
+                <li>
+                  Prepared and submitted progress reports regularly to the HODs and Dean.
+                </li>
+                <li>
+                  Made necessary arrangements for the students to receive academic support from the Student Development & Support Division and monitor attendance of such interventions.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- end timeline__block -->
+        </div>
+        <!-- end timeline -->
+      </div>
+      <!-- end right -->
+    </div>
+    <!-- end about-content timeline -->
+  </section>
+  <!-- end about -->
+
+  <!-- works
     ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+  <section id="portfolio" class="s-works target-section">
+    <div class="col-full text-center">
+      <h1>Projects</h1>
+    </div>
 
+    <div class="row narrow section-intro has-bottom-sep">
+      <div class="col-full">
+        <p class="lead">
+          I've worked on both personal and professional projects, here are some of the projects that I've worked on,
+          feel free to check out my Github for some of these projects' source codes, I will not take it personally😉.
+        </p>
+      </div>
+    </div>
+
+    <div class="row masonry-wrap">
+      <div class="masonry">
+
+        <div class="masonry__brick">
+          <div class="item-folio">
+            <div class="item-folio__thumb">
+              <a href="images/portfolio/gallery/g-covid19tracker.png" class="thumb-link" title="Novelty"
+                data-size="1366x768">
+                <img src="images/portfolio/covid19tracker.png" srcset="images/portfolio/covid19tracker.png 1x" alt="" />
+                <span class="shadow-overlay"></span>
+              </a>
+            </div>
+
+            <div class="item-folio__text">
+              <h3 class="item-folio__title">
+                Glocal Covid-19 Live Tracker
+              </h3>
+              <p class="item-folio__cat">
+                Web Development
+              </p>
+            </div>
+
+            <a href="#" class="item-folio__project-link">
+              <i class="im im-link"></i>
+            </a>
+
+            <div class="item-folio__caption">
+              <p>A Global Covid-19 Live Tracker app developed in React, It offers live global covid-19 stats, and also
+                individual countries stats. The site is accessible here <a href="https://globalcovid19tracker.herokuapp.com/"
+                target="_blank">Global COVID-19 Live Tracker</a> and the source code is available for review on my <a
+                href="https://github.com/giftmbanda/globalcovid19tracker" target="_blank">Github</a>. </p>
+            </div>
+          </div><!-- end item-folio -->
+        </div><!-- end masonry__brick -->
+
+        <div class="masonry__brick">
+          <div class="item-folio">
+            <div class="item-folio__thumb">
+              <a href="images/portfolio/gallery/g-novelty.png" class="thumb-link" title="Novelty" data-size="1366x768">
+                <img src="images/portfolio/novelty.png" srcset="images/portfolio/novelty.png 1x" alt="" />
+                <span class="shadow-overlay"></span>
+              </a>
+            </div>
+
+            <div class="item-folio__text">
+              <h3 class="item-folio__title">
+                Novelty
+              </h3>
+              <p class="item-folio__cat">
+                Web App Development
+              </p>
+            </div>
+
+            <a href="#" class="item-folio__project-link">
+              <i class="im im-link"></i>
+            </a>
+
+            <div class="item-folio__caption">
+              <p>We often have a lot of aspiring entrepreneurs who want to start a business with only an idea and have
+                to deal with the complexity involved with starting up a business. Novelty walks the user through the
+                process of evaluating their business idea, help the user find the right team for their technical tasks,
+                offer marketing strategies, and ways to get funding for the business. Novelty is a product of <a
+                  href="https://www.thedigitalacademy.co.za/" target="_blank">The Digital Academy</a> in partnership
+                with <a href="https://www.absa.co.za/" target="_blank">ABSA</a>. The project was developed with MySQL,
+                Express, Angular, and NodeJs.
+            </div>
+          </div><!-- end item-folio -->
+        </div><!-- end masonry__brick -->
+
+        <br>
+        <div class="masonry__brick">
+          <div class="item-folio">
+            <div class="item-folio__thumb">
+              <a href="images/portfolio/gallery/g-whatsapporder.png" class="thumb-link" title="Fast-Food WhatsappOrder"
+                data-size="1366x768">
+                <img src="images/portfolio/whatsapporder.png" srcset="images/portfolio/whatsapporder.png 1x" alt="" />
+                <span class="shadow-overlay"></span>
+              </a>
+            </div>
+
+            <div class="item-folio__text">
+              <h3 class="item-folio__title">
+                WhatsappOrder
+              </h3>
+              <p class="item-folio__cat">
+                Web Development
+              </p>
+            </div>
+
+            <a href="#" class="item-folio__project-link">
+              <i class="im im-link"></i>
+            </a>
+
+            <div class="item-folio__caption">
+              <p>
+                A light-weight HTML5, CSS3, and vanilla Javascript food ordering website, allows customers to place food
+                orders and it forward the order via Whatsapp to the Whatsapp linked to the site, ideal for small
+                fast-food businesses. The site is accessible here <a href="https://giftmbanda.com/whatsapporder"
+                  target="_blank">WhatsappOrder</a> and the source code is available for review on my <a
+                  href="https://github.com/giftmbanda/whatsapporder" target="_blank">Github</a>. </p>
+            </div>
+          </div><!-- end item-folio -->
+        </div><!-- end masonry__brick -->
+        <br>
+
+        <div class="masonry__brick">
+          <div class="item-folio">
+            <div class="item-folio__thumb">
+              <a href="images/portfolio/gallery/g-mystudylife.png" class="thumb-link" title="MyStudyLife"
+                data-size="1366x768">
+                <img src="images/portfolio/mystudylife.png" srcset="images/portfolio/mystudylife.png 1x" alt="" />
+                <span class="shadow-overlay"></span>
+              </a>
+            </div>
+
+            <div class="item-folio__text">
+              <h3 class="item-folio__title">
+                MyStudyLife
+              </h3>
+              <p class="item-folio__cat">
+                Web App Development
+              </p>
+            </div>
+
+            <a href="#" class="item-folio__project-link">
+              <i class="im im-link"></i>
+            </a>
+
+            <div class="item-folio__caption">
+              <p> A student attendance register system, the web app allows a student to log their class attendance 
+                via a GPS enabled smartphone. The student turns on GPS/Location on their device, logs in, and selects 
+                "Attend" for the module being lectured that they present at. The system checks the student's Device 
+                GPS Coordinate against the assigned Vanues's GPS coordinates and checks the student's Device GPS 
+                Coordinate ping time against the Subject's assigned attendance time then processes the attendance. 
+                This project is developed with Laravel, Bootstrap, HTML, CSS, and it makes use of the MySQL database. 
+                The source code is available for review on my <a href="https://github.com/giftmbanda/mystudylife" target="_blank">Github</a>.
+              </p>
+            </div>
+          </div><!-- end item-folio -->
+        </div><!-- end masonry__brick -->
+
+      </div>
+    </div>
+    <!-- end masonry -->
+  </section>
+  <!-- end works -->
+
+  <!-- s-stats
+    ================================================== -->
+  <section id="contact" class="s-contact target-section">
+    <div class="overlay"></div>
+    <div class="shadow-overlay"></div>
+
+    <div class="row narrow section-intro">
+      <div class="col-full">
+        <h1>Contact</h1>
+        <p class="lead">
+          I'm currently available for a work opportunity. If you have a project that you want to get me involved with, 
+          think I will be a great fit for your team, or just fancy saying hey, then get in touch.
+        </p>
+      </div>
+    </div>
+
+    <div class="row contact__main">
+      <div class="col-eight tab-full contact__form">
+        <form name="contactForm" id="contactForm" method="post" action="">
+          <fieldset>
+            <div class="form-field">
+              <input name="contactName" type="text" id="contactName" placeholder="Name*" value="" minlength="2"
+                required="" aria-required="true" class="full-width" />
+            </div>
+            <div class="form-field">
+              <input name="contactEmail" type="email" id="contactEmail" placeholder="Email*" value="" required=""
+                aria-required="true" class="full-width" />
+            </div>
+            <div class="form-field">
+              <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value=""
+                class="full-width" />
+            </div>
+            <div class="form-field">
+              <textarea name="contactMessage" id="contactMessage" placeholder="Message*" rows="10" cols="5" required=""
+                aria-required="true" class="full-width"></textarea>
+            </div>
+            <div class="form-field">
+              <button class="full-width btn--primary">send message</button>
+              <div class="submit-loader">
+                <div class="text-loader">Sending...</div>
+                <div class="s-loader">
+                  <div class="bounce1"></div>
+                  <div class="bounce2"></div>
+                  <div class="bounce3"></div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+
+        <!-- contact-warning -->
+        <div class="message-warning">
+          Something went wrong. Please try again.
+        </div>
+
+        <!-- contact-success -->
+        <div class="message-success">
+          Your message was sent, thank you!<br />
+        </div>
+      </div>
+      <div class="col-four tab-full contact__infos">
+        <h4 class="h06">Contact</h4>
+        <ul>
+          <li>Phone: (+27) 72 943 3017</li>
+          <li>Email: giftmbanda@gmail.com</li>
+          <li>Location: Johanessburg</li>
+        </ul>
+        <h4 class="h06">Glimpse of giftmbanda.com</h4>
+        <p>
+         I'm a bit of a code junky. Over the year, I've demoed and trialled several websites and mobile apps in different industries and verticals. Eventually, I decided that it would be a fun challenge to try designing and building my online resume and this is how this giftmbanda.com was born. 03/06/2018
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- ends-contact -->
+
+  <!-- footer
+    ================================================== -->
+  <footer>
+    <div class="row">
+      <div class="col-full">
+        <ul class="footer-social">
+          <li>
+            <a href="https://www.linkedin.com/in/giftmbanda/" target="_blank">
+              <i class="im im-linkedin" aria-hidden="true"></i><span>Linkedin</span></a>
+          </li>
+          <li>
+            <a href="https://api.whatsapp.com/send?phone=27729433017&text=Hello%20Gift." target="_blank">
+              <i class="im im-whatsapp" aria-hidden="true"></i><span>Whatsapp</span></a>
+          </li>
+          <li>
+            <a href="https://www.github.com/giftmbanda" target="_blank">
+              <i class="im im-github" aria-hidden="true"></i><span>Github</span></a>
+          </li>
+        </ul>
+      </div>
+      <span>connect with me.</span>
+    </div>
+
+    <div class="row footer-bottom">
+      <div class="col-twelve">
+        <div class="copyright">
+          <span>© Copyright
+            <a href="https://www.giftmbanda.com/"> Gift Banda </a>
+            2021</span>
+        </div>
+
+        <div class="go-top">
+          <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+    <!-- end footer-bottom -->
+  </footer>
+  <!-- end footer -->
+
+  <!-- photoswipe background
+    ================================================== -->
+  <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+
+      <div class="pswp__ui pswp__ui--hidden">
+        <div class="pswp__top-bar">
+          <div class="pswp__counter"></div>
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+          <button class="pswp__button pswp__button--share" title="Share"></button>
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end photoSwipe background -->
+
+  <div id="preloader">
+    <div id="loader"></div>
+  </div>
+
+  <!-- JavaScript
+    ================================================== -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
